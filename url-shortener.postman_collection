@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "f29ede9c-e58b-4365-8fe9-921d85768d2e",
+		"name": "Url shortener",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create random shortened URL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\" : \"https://laravel.com/docs/8.x/installation\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/url",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create defined shortened URL",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"origin\" : \"https://stackoverflow.com/questions/24998624/day-name-from-date-in-js\",\r\n    \"target\" : \"day-name-from-date-in-js\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/url",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"url"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
