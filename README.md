@@ -7,6 +7,7 @@
 - Mbstring PHP Extension
 - OpenSSL PHP Extension
 - PDO PHP Extension
+- PDO SQLITE Extension
 - Tokenizer PHP Extension
 - XML PHP Extension
 - Composer
