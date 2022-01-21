@@ -77,3 +77,11 @@ I choose `sqlite` because it is a simple database file based and this makes inst
 ## MVC
 
 MVC offered by Laravel itself
+
+# Test
+
+All test are located in `./tests/Feature/`
+
+## How to execute test
+
+- in root of project execute `php artisan test`
