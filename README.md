@@ -80,7 +80,7 @@ MVC offered by Laravel itself
 
 # Test
 
-All test are located in `./tests/Feature/`
+All tests are located in `./tests/Feature/`
 
 ## How to execute test
 
